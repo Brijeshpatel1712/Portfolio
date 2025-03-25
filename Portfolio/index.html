@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar navbar-expand-lg p-0">
+        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#menu">
+            <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center navbar-fixed-top position-fixed w-100 t-0" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume">RESUME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="text text-center hero-section" id="home">
+        <div class="hero-content">
+            <h2 class="display-1 text-light fs-2">Hello, I'M</h2>
+            <h2 class="fw-bold display-1 text-light">Brijesh Sangani</h2>
+            <h5 class="fw-light text-light text-uppercase" style="letter-spacing: 4px;">and this is My Resume</h5>
+        </div>
+    </div>
+    </div>
+
+    <!-- Featured Portfolio -->
+    <div class="container-fluid bg-dark " id="portfolio">
+        <div class="container  pt-5 pb-5">
+            <h2 class="text-center text-light">Featured PORTFOLIO</h2>
+
+            <ul class="nav nav-pills d-flex justify-content-center">
+                <li class=" nav nav-item">
+                    <button class="nav-link active" style="border:none;outline: none;background-color: transparent;"
+                        data-bs-toggle="pill" data-bs-target="#one">Home</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" style="border:none;outline: none;background-color: transparent;"
+                        data-bs-toggle="pill" data-bs-target="#two">Packaging</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" style="border:none;outline: none;background-color: transparent;"
+                        data-bs-toggle="pill" data-bs-target="#three">Typography</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" style="border:none;outline: none;background-color: transparent;"
+                        data-bs-toggle="pill" data-bs-target="#fore">mockup</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" style="border:none;outline: none;background-color: transparent;"
+                        data-bs-toggle="pill" data-bs-target="#five">photography</button>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="one">
+                    <div class="row justify-content-center align-content-between bri">
+                        <div class="col-4 box">
+                            <img src="img/1.webp" alt="">
+                            <p class=" row justify-content-center mt-3 mb-0 text-light">Square Box Mockup</p>
+                            <p class="row justify-content-center  text-light ">Mockup</p>
+                        </div>
+                        <div class="col-4 box">
+                            <img src="img/2.webp" alt="">
+                            <p class="row justify-content-center mt-3 mb-0  text-light">Product Box Package Mockup</p>
+                            <p class="row justify-content-center  text-light">Mockup</p>
+                        </div>
+                        <div class="col-4 box">
+                            <img src="img/3.webp" alt="">
+                            <p class="row justify-content-center mt-3 mb-0  text-light">Creative Package Design</p>
+                            <p class="row justify-content-center  text-light">Packaging</p>
+                        </div>
+                        <div class="col-4 box">
+                            <img src="img/4.webp" alt="">
+                            <p class="row justify-content-center mt-3 mb-0  text-light">Packaging Brand</p>
+                            <p class="row justify-content-center  text-light">Packaging</p>
+                        </div>
+                        <div class="col-4 box">
+                            <img src="img/5.webp" alt="">
+                            <p class="row justify-content-center mt-3 mb-0  text-light">Isometric 3D Extrusion</p>
+                            <p class="row justify-content-center  text-light ">Typography</p>
+                        </div>
+                        <div class="col-4 box">
+                            <img src="img/6.webp" alt="">
+                            <p class="row justify-content-center mt-3 mb-0  text-light">White Space Photography</p>
+                            <p class="row justify-content-center  text-light    ">photography</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="two">
+                    <div class="row ">
+                        <div class="col-4 box">
+                            <img src="img/3.webp" alt="">
+                            <p class="row justify-content-center mt-3 mb-0  text-light">Creative Package Design</p>
+                            <p class="row justify-content-center  text-light">Packaging</p>
+                        </div>
+                        <div class="col-4 box">
+                            <img src="img/4.webp" alt="">
+                            <p class="row justify-content-center mt-3 mb-0  text-light">Packaging Brand</p>
+                            <p class="row justify-content-center  text-light">Packaging</p>
+                        </div>
+                        <div class="col-4 box"></div>
+                        <div class="col-4 box"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="three">
+                    <div class="row">
+                        <div class="col-4 box">
+                            <img src="img/1.webp" alt="">
+                            <p class=" row justify-content-center mt-3 mb-0 text-light">Square Box Mockup</p>
+                            <p class="row justify-content-center  text-light ">Mockup</p>
+                        </div>
+                        <div class="col-4 box">
+                            <img src="img/2.webp" alt="">
+                            <p class="row justify-content-center mt-3 mb-0  text-light">Product Box Package Mockup</p>
+                            <p class="row justify-content-center  text-light">Mockup</p>
+                        </div>
+                        <div class="col-4 box"></div>
+                        <div class="col-4 box"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="fore">
+                    <div class="row">
+                        <div class="col-4 box">
+                            <img src="img/5.webp" alt="">
+                            <p class="row justify-content-center mt-3 mb-0  text-light">Isometric 3D Extrusion</p>
+                            <p class="row justify-content-center  text-light ">Typography</p>
+                        </div>
+                        <div class="col-4"></div>
+                        <div class="col-4"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="five">
+                    <div class="row">
+                        <div class="col-4 box">
+                            <img src="img/6.webp" alt="">
+                            <p class="row justify-content-center mt-3 mb-0  text-light">White Space Photography</p>
+                            <p class="row justify-content-center  text-light    ">photography</p>
+                        </div>
+                        <div class="col-4"></div>
+                        <div class="col-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- My resume -->
+    <div class="container-fluid my" id="resume">
+        <div class="container pt-5 pb-5 ">
+            <h1 class="text-center text-light resume">My Resume</h1>
+        </div>
+        <div class="row My-resume ">
+            <div class="col-1"></div>
+            <div class="col-4 ">
+                <div class="row Education ">
+                    <h3 class="text-light">Education</h3>
+                    <div class="row box1  ">
+                        <div class="col-12 mt-4">
+                            <pre class="text-success"><i class="bi bi-calendar-event"></i> March 2019 -  SSC </pre>
+                            <pre>I compeleted my 10th standard at <b>Vishwagram Vidyapith <br>Madhyamik Shala</b>,Which is based on junagadh.</pre>
+                            <pre>Score : <b>91.03 PR</b></pre>
+                        </div>
+                    </div>
+                    <div class="row box1">
+                        <div class="col-12 mt-4">
+                            <pre class="text-success"><i class="bi bi-calendar-event"></i> March 2021 -  HSC </pre>
+                            <pre>I compeleted my 12th standard at <b>Vishwagram Vidyapith <br>Madhyamik Shala</b> in science stream, Which is based on <br>junagadh.</pre>
+                            <pre>Score : <b>70.19 PR</b></pre>
+                        </div>
+                    </div>
+                    <div class="row box1">
+                        <div class="col-12 mt-4">
+                            <pre class="text-success"><i class="bi bi-calendar-event"></i> October 2023 to continue - BCA</pre>
+                            <pre>I currently pursing my college at <b>Swarrnim Institute of <br>Technology</b> in BCA stearm, Which is based on kalol.</pre>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-4">
+                <div class="row Education">
+                    <h3 class="text-light">Projects</h3>
+                    <div class="row box1 ">
+                        <div class="col-12 mt-4">
+                            <p class="text-success">FastFood TNC</p>
+                            <p>I created a clone website of <b>FastFood TNC</b>, which is used for make food orders. Special feature is customer can reserve tables in offline venue. We also provide delivery service.</p>
+                            <p>Tools & Tech. : <b>HTML, CSS,</b> VS <b>Code</b></p>
+                        </div>
+                    </div>
+                    <div class="row box1 ">
+                        <div class="col-12 mt-4">
+                            <p class="text-success">HAPPENSTANCE</p>
+                            <p>I created a clone website of <b>HAPPENSTANCE</b>, which is used for make footwear orders. Speciality about our footwear is arch support footwears. Footwear made by biomechenics inspired contruction.</p>
+                            <p>Tools & Tech. : <b>HTML, CSS,</b> VS <b>Code</b></p>
+                        </div>
+                    </div>
+                    <div class="row box1 ">
+                        <div class="col-12 mt-4">
+                            <p class="text-success">Book My Show</p>
+                            <p>I created a clone website of <b>Book My Show</b>, which is used for book movie tickets, sports tickets, live events booking and many more popular events booking.</p>
+                            <p>Tools & Tech. : <b>HTML, CSS, Bootstrap</b> VS <b>Code</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- About me -->
+    <div class="aaa" style="background-color:#212529; height: auto; padding-top: 10%;">
+        <div class="container-fluid bg-dark">
+            <div class="container me bg-dark" id="about">
+                <div class="row r-1">
+                    <div class="col-lg-7 col-sm-8 mt-sm-5 pic">
+                        <div class="row">
+                            <div class="col-lg-2 col-sm-3"></div>
+                            <div class="col-lg-10 col-sm-8">
+                                <img src="img/me.png" alt="">
+                            </div>
+                            <div class="col-lg-0 col-sm-3"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-12 ">
+                        <div class="row Aboutt">
+                            <div class="col-10">
+                                <h2>About me</h2>
+                                <h6>Separated they live in Bookmarksgrove right at <br> the coast of the Semantics, a
+                                    large
+                                    language <br> ocean.</h6>
+                                <h6>A small river named Duden flows by their place and supplies it with the necessary
+                                    regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                                    into your
+                                    mouth.</h6>
+                                <button class="btn-1 mt-4">hire me</button>
+                                <button class="btn-2 mt-4">Download cv</button>
+                            </div>
+                            <div class="col-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Client Testimonial -->
+        <h2 class="text-center text-light mt-5">Client Testimonial</h2>
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-6 col-sm-12 p-4 text-light">
+                        <div class="row">
+                            <div class="col-lg-2 col-sm-2">
+                                <img style="height: 60px; width: 100%;" src="img/user.webp" alt="">
+                            </div>
+                            <div class="col-lg-9 col-sm-12  text-light "
+                                style="height: auto;background-color: #333333; padding-top: 40px;">“Far far away, behind
+                                the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                                texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+                                large language ocean.”
+                                <br><br>
+                                — Ethan McCown, CEO XYZ Inc.
+                                <br><br>
+                            </div>
+                            <div class="col-lg-1 col-sm-0 "></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 p-4  text-light">
+                        <div class="row">
+                            <div class="col-lg-2 col-sm-2">
+                                <img style="height: 60px; width: 100%;" src="img/user.webp" alt="">
+                            </div>
+                            <div class="col-lg-9 col-sm-12 text-light "
+                                style="height: auto;background-color:  #333333; padding-top: 40px;">“Far far away,
+                                behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                                the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                                Semantics, a large language ocean.”
+                                <br><br>
+                                — Ethan McCown, CEO XYZ Inc.
+                                <br><br>
+                            </div>
+                            <div class="col-lg-1 col-sm-0"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 p-4  text-light">
+                        <div class="row">
+                            <div class="col-lg-2 col-sm-2 ">
+                                <img style="height: 60px; width: 100%;" src="img/user.webp" alt="">
+                            </div>
+                            <div class="col-lg-9 col-sm-12  text-light "
+                                style="height: auto;background-color: #333333; padding-top: 40px;">“Far far away, behind
+                                the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                                texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+                                large language ocean.”
+                                <br><br>
+                                — Ethan McCown, CEO XYZ Inc.
+                                <br><br>
+                            </div>
+                            <div class="col-lg-1 col-sm-0 "></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 p-4  text-light">
+                        <div class="row">
+                            <div class="col-lg-2 col-sm-2 col-sm-0">
+                                <img style="height: 60px; width: 100%;" src="img/user.webp" alt="">
+                            </div>
+                            <div class="col-lg-9 col-sm-12 text-light "
+                                style="height: auto;background-color:  #333333; padding-top: 40px;">“Far far away,
+                                behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                                the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+                                Semantics, a large language ocean.”
+                                <br><br>
+                                — Ethan McCown, CEO XYZ Inc.
+                                <br><br>
+                            </div>
+                            <div class="col-lg-1 col-sm-0"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- My Services -->
+        <h2 class="text-center text-light mt-5"> My Services </h2>
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-4 text-light col-sm-12 mt-sm-3  ">
+                        <div class="box-1">
+                            <span class="icon  ">
+                                <img style="border-radius: 50%; height: 100px; margin-top: 50px; " src="img/web.png"
+                                    alt="">
+                            </span>
+                            <h6 class="text-center mt-4">Web Design</h6>
+                            <p class="p-4  text-center">Far far away, behind the word mountains, far from the countries
+                                Vokalia and Consonantia, there live the blind texts. Separated they live in
+                                Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                            <p class="text-success text-center">Learn More ></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-light col-sm-12  mt-sm-4 ">
+                        <div class="box-1 ">
+                            <span class="icon ">
+                                <img style="border-radius: 50%; height: 100px; margin-top: 50px;" src="img/tre.png"
+                                    alt="">
+                            </span>
+                            <h6 class="text-center mt-4">Search Engine Optimization</h6>
+                            <p class="p-4  text-center">A small river named Duden flows by their place and supplies it
+                                with the necessary regelialia. It is a paradisematic country, in which roasted parts of
+                                sentences fly into your mouth.</p>
+                            <p class="text-success text-center">Learn More ></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-light col-sm-12  mt-sm-4 ">
+                        <div class="box-1">
+                            <span class="icon ">
+                                <img style="border-radius: 50%; height: 100px; margin-top: 50px;" src="img/vi.png"
+                                    alt="">
+                            </span>
+                            <h6 class="text-center mt-4">Video Editing</h6>
+                            <p class="p-4 text-center">Even the all-powerful Pointing has no control about the blind
+                                texts it is an almost unorthographic life One day however a small line of blind text by
+                                the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                            <p class="text-success text-center">Learn More ></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog on Medium -->
+                <h2 class="text-center text-light mt-5">Blog on Medium</h2>
+                <div class="blog m-5">
+                    <div class="row text-light">
+                        <div class="col-lg-4 col-sm-6 mt-sm-4">
+                            <div class="card" style="background-color: #333333;">
+                                <img src="img/c1.webp" alt="">
+                                <div class="card-body">
+                                    <h6 class="h-1">Creative Product Designer From Facebook</h6>
+                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an
+                                        almost unorthographic.</p>
+                                    <pre><i class="bi bi-calendar-event"></i> Aug 7, 2018 <i class="bi bi-chat-dots"></i> 5 Comments</pre>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-sm-6 mt-sm-4">
+                            <div class="card" style="background-color: #333333;">
+                                <img src="img/c2.webp" alt="">
+                                <div class="card-body">
+                                    <h6 class="h-1">Creative Product Designer From Facebook</h6>
+                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an
+                                        almost unorthographic.</p>
+                                    <pre><i class="bi bi-calendar-event"></i> Aug 7, 2018 <i class="bi bi-chat-dots"></i> 5 Comments</pre>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4  col-sm-6 mt-sm-4">
+                            <div class="card" style="background-color: #333333;">
+                                <img src="img/c3.webp" alt="">
+                                <div class="card-body">
+                                    <h6 class="h-1">Creative Product Designer From Facebook</h6>
+                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an
+                                        almost unorthographic.</p>
+                                    <pre><i class="bi bi-calendar-event"></i> Aug 7, 2018 <i class="bi bi-chat-dots"></i> 5 Comments</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Get In Touch -->
+    <div class="container-fluid bg-dark text-light" id="contact">
+        <div class="container me bg-dark">
+            <h1 class="text-center">Get In Touch</h1>
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <p class="fs-3">Get In Touch</p>
+                    <input type="text " placeholder="Your Name" style="width: 90%; height: 40px;"><br><br>
+                    <input type="text" placeholder="Your Email" style="width: 90%; height: 40px;"><br><br>
+                    <input type="text" placeholder="Your Phone" style="width: 90%; height: 40px;"><br><br>
+                    <textarea placeholder="Write a Message" style="width: 90%; height: 200px;"></textarea>
+                    <button class="btn-3 mt-4">SEND MESSAGE</button>
+                </div>
+                <div class="col-lg-3 col-sm-12">
+                    <p class="fs-3">My Contact Details</p>
+                    <p class="text-info fs-6">EMAIL</p>
+                    <p>brijeshsangani088@gmail.com</p><br>
+                    <p class="text-info fs-6">PHONE</p>
+                    <p>+91 7859940814</p><br>
+                    <p class="text-info fs-6">FAX</p>
+                    <p>+91 635474***3</p><br>
+                    <p class="text-info fs-6">Address</p>
+                    <p>Shree Annapurnadham Boys hostel, Adalaj, Gandhinagar - 382421</p><br>
+
+
+                </div>
+            </div>
+            <p class="text-center text-light " style="margin-top: 15%;">Copyright © 2025 All rights reserved | This
+                template is made with <i class="bi bi-heart"></i> <span class="" style="color: #BAC964;"> by Colorlib
+                </span></p><br><br>
+            <pre class="text-center  fs-1"
+                style="color: #BAC964;"><i class="bi bi-facebook"></i> <i class="bi bi-twitter"></i> <i class="bi bi-instagram"></i> <i class="bi bi-linkedin"></i> <i class="bi bi-vimeo"></i></pre>
+            <br><br><br><br>
+
+
+
+
+
+        </div>
+    </div>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navbar-fixed-top");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>

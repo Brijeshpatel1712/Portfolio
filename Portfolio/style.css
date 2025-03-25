@@ -1,0 +1,186 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    height: 70px;
+  }
+
+  .navbar-fixed-top.scrolled a {
+    color: black !important;
+  }  
+
+  .navbar-fixed-top.scrolled a:hover {
+    color: rgb(163, 163, 2) !important;
+  }
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/brijesh.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.nav-link
+{
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.nav-item .nav-link {
+    color: rgb(168, 158, 158);
+}
+
+.nav-item .nav-link:hover {
+    color: yellow;
+}
+
+.nav .nav-item .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.nav .nav-item .nav-link:hover {
+    color: yellow;
+}
+.box
+{
+    width: 50%;
+    margin: auto;
+}
+.box img
+{
+    width: 100%;
+}
+.bri
+{
+    height: auto;
+    /* background-color: aquamarine; */
+}
+.my
+{
+    background-color: #212529;
+    height: auto;
+}
+.resume 
+{
+    margin-top: 10%;
+}
+
+.Education
+{
+    height: auto;
+    width: 125%;
+    /* background-color: aqua; */
+    margin: 10px;
+}
+.box1
+{
+    height: auto;
+    background-color:#333333;
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.me
+{
+    background-color:#333333;
+    height: auto;
+    color: white;
+    width: 50%;
+
+}
+.pic img
+{
+    width: 60%;
+    height: 400px;
+    background-color: whitesmoke;
+}
+.Aboutt
+{
+    padding-top: 20%;
+}
+.btn-1
+{
+    background-color:#BAC964;
+    color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-size: 14px;
+    height: 40px;
+    width: 115px;
+    letter-spacing: 2px;
+}
+.btn-1:hover
+{
+    background-color: #93cd4c;
+    color: aliceblue;
+}
+.btn-2
+{
+    background-color:#BAC964;
+    color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-size: 14px;
+    height: 40px;
+    width: 115px;
+    letter-spacing: 2px;
+}
+.btn-2:hover
+{
+    background-color: #93cd4c;
+    color: aliceblue;
+}
+.box-1
+{
+    height: 470px;
+    background-color: #333333;
+}
+.icon
+{
+    margin-left: 40%;
+    
+}
+.h-1:hover
+{
+  color: #BAC964;
+}
+.Message
+{
+    width: 90%;
+    height: 130px;
+    background-color: azure;
+}
+.Message input 
+{
+    border: none;
+}
+.btn-3
+{
+    background-color:#BAC964;
+    color: aliceblue;
+    border: none;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-size: 14px;
+    height: 40px;
+    width: 150px;
+    letter-spacing: 2px;
+}
+.btn-3:hover
+{
+    background-color: #93cd4c;
+    color: aliceblue;
+}
